@@ -5,7 +5,7 @@ import altair as alt
 import pandas as pd
 import requests
 import streamlit as st
-
+# frontend/app.py changed for part 1 task3 compare v1hwfofueojfdld fh
 st.set_page_config(page_title="Listen AI Dashboard", layout="wide")
 
 GATEWAY_URL = os.getenv("GATEWAY_URL", "http://localhost:8000")
@@ -15,7 +15,7 @@ if "token" not in st.session_state:
 
 st.title("ListenAI Dashboard")
 st.caption("Track sentiment, keywords, trends, and example posts by keyword filters.")
-st.text("Hello! 梁安哲")
+st.text("Hello! 黃昱祺")
 
 dashboard_tab, add_post_tab = st.tabs(["Dashboard", "Add Post"])
 
